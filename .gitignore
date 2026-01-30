@@ -1,0 +1,41 @@
+# Exclude everything by default
+*
+
+# Include only specific folders
+!1d model/
+!1d model/**
+!chbmit/
+!chbmit/**
+!LLM_TL code/
+!LLM_TL code/**
+!spectrograms/
+!spectrograms/**
+!TRANSFER/
+!TRANSFER/**
+!xai_llm/
+!xai_llm/**
+
+# Include the spectrogramsnpy.py file
+!spectrogramsnpy.py
+
+# Include gitignore and README
+!.gitignore
+!README.md
+
+# Exclude __pycache__ everywhere (usually not wanted in git)
+**/__pycache__/
+**/*.pyc
+
+# Exclude macOS files
+.DS_Store
+._*
+
+# Exclude large data files that might be in included folders
+**/*.edf
+**/*.npz
+**/*.npy
+**/*.pt
+**/*.pth
+**/*.onnx
+**/*.tflite
+**/*.h5
