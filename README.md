@@ -64,6 +64,4 @@ python LLM_TL\ code/xai_r.py
 ```
 
 ## Dataset
-
-Tested on:
 - **CHB-MIT Scalp EEG Database** - Pediatric seizure recordings
