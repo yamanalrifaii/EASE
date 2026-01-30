@@ -1,7 +1,7 @@
 # report_writer.py
 import os, json, base64, requests
 
-GEMINI_API_KEY = "AIzaSyAdeKHB0xEO9tb5DJttUPyahqguaI-s3fw"
+GEMINI_API_KEY = ""
 # Use the same model you used in your training script
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
 

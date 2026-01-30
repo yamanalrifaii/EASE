@@ -24,7 +24,7 @@ from trainer import trainer
 warnings.filterwarnings("ignore", category=FutureWarning)
 
 # ---------- Put your key here (or leave "" to use env GEMINI_API_KEY) ----------
-GKEY_HARDCODED = "AIzaSyAdeKHB0xEO9tb5DJttUPyahqguaI-s3fw"     # e.g. "AIzaSy...."
+GKEY_HARDCODED = ""     # e.g. "AIzaSy...."
 GEMINI_MODEL   = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash")
 
 # ---------- Torch / device ----------

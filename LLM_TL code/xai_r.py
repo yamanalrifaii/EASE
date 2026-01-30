@@ -69,7 +69,7 @@ OUT_DIR   = r"E:\EEG\TRANSFER\models_optuna_eff_gemini_verbose\chb08\xai_report"
 SEQ_LEN   = 3
 
 # Gemini (LLM) summary (dummy key kept as requested)
-GEMINI_API_KEY = "AIzaSyAdeKHB0xEO9tb5DJttUPyahqguaI-s3fw"  # dummy placeholder; keep as-is
+GEMINI_API_KEY = ""  # set your API key here
 GEMINI_MODEL   = "gemini-2.0-flash"
 
 # ====== LLM STRICTNESS & RETRIES ======
